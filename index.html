@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Landy - Parallax App Landing Page</title>
+    <title>ec5.me</title>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- CSS
@@ -9,8 +9,8 @@
     <!-- Bootstrap 3-->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
     <!-- Template Styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
       </head>
@@ -18,7 +18,7 @@
 
     <!-- NAVBAR
         ================================================== -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default hide" role="navigation">
         <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -29,7 +29,7 @@
           </button>
 
           <!--Replace text with your app name or logo image-->
-          <a class="navbar-brand" href="#">Landy</a>
+          <a class="navbar-brand" href="#">ec5.me</a>
 
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -37,7 +37,7 @@
             <li><a onclick="$('header').animatescroll({padding:71});">Start</a></li>
             <li><a onclick="$('.detail').animatescroll({padding:71});">Screens</a></li>
             <li><a onclick="$('.features').animatescroll({padding:71});">Features</a></li>
-            <li><a onclick="$('.social').animatescroll({padding:71});">Social </a></li>
+            <li><a onclick="$('.social').animatescroll({padding:71});">Social</a></li>
           </ul>
         </div>
       </div>
@@ -60,7 +60,6 @@
               <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
               </ol>
 
               <!-- Wrapper for slides -->
@@ -70,9 +69,6 @@
                 </div>
                 <div class="item">
                   <img src="img/screenshots/app-2.png" alt="App Screen 2">
-                </div>
-                <div class="item">
-                  <img src="img/screenshots/app-3.png" alt="App Screen 3">
                 </div>
 
               </div>
@@ -91,7 +87,7 @@
         <div class="row">
           <div class="col-md-offset-2 col-md-8">
            <h1>Don't just dial phone number</h1>
-                <p class="lead">Find out online information by phone number</p>
+                <p class="lead">Find out online information when you see a phone number</p>
                 <button type="button" class="app-store"></button>
           </div>
         </div>
@@ -101,7 +97,7 @@
 
     <!-- PAYOFF
         ================================================== -->
-    <section class="payoff">
+    <section class="payoff hide">
     <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -114,7 +110,7 @@
 
     <!-- DETAILS
         ================================================== -->
-    <section class="detail">
+    <section class="detail hide">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -178,7 +174,7 @@
 
     <!-- FEATURES
         ================================================== -->
-    <section class="features">
+    <section class="features hide">
       <div class="container">
         <div class="row">
 
@@ -207,7 +203,7 @@
 
    <!-- SOCIAL
        ================================================== -->
-    <section class="social">
+    <section class="social hide">
       <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -225,7 +221,7 @@
 
    <!-- GET IT
        ================================================== -->
-    <section class="get-it">
+    <section class="get-it hide">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

@@ -158,22 +158,21 @@ header p.lead{
 }
 
 
-header .carousel-iphone{
+header .carousel-iphone {
   margin-right: auto;
   margin-left: auto;
-  width: 320px;
+  width: 495px;
   height: 672px;
-  background: url('../img/iphone-front.png') no-repeat;
+  background: url('../img/nexus-5.png') no-repeat;
   background-size: 100%;
-
 }
 
 header .carousel {
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  padding: 95px 0px 0px 4px;
-  width: 282px;
+  padding: 55px 0px 0px 0px;
+  width: 298px;
 }
 
 header .carousel-indicators .active {
@@ -208,9 +207,9 @@ header .carousel-indicators li {
 }
 
 .purchase button.app-store{
-  width: 152px;
-  height: 52px;
-  background: url(../img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
+  width: 172px;
+  height: 60px;
+  background: url(../img/badge-appstore.png) no-repeat 0px 0px;
   color: white;
 }
 
@@ -270,19 +269,19 @@ header .carousel-indicators li {
   background: none;
 }
 
-.detail .app-screenshot{
+.detail .app-screenshot {
   overflow: hidden;
   overflow: hidden;
   margin-right: auto;
   margin-left: auto;
   padding-top: 95px;
   width: 320px;
-  height: 450px;
-  background: url('../img/iphone-front.png') no-repeat;
+  height: 50px;
+  background: url('../img/nexus-5.png') no-repeat;
   background-size: 100%;
 }
 
-.detail .app-screenshot img{
+.detail .app-screenshot img {
   margin-right: auto;
   margin-left: auto;
   padding-left: 4px;
@@ -499,16 +498,16 @@ header, .social{
 
 @media (max-width:480px){
 
-  header .carousel-iphone, .detail .app-screenshot{
+  header .carousel-iphone, .detail .app-screenshot {
     width: 280px;
   }
 
-  header .carousel, .detail .app-screenshot img{
-    padding-top: 85px;
-    width: 245px;
+  header .carousel, .detail .app-screenshot img {
+    padding-top: 31px;
+    width: 168px;
   }
 
-  .detail .app-screenshot img{
+  .detail .app-screenshot img {
     margin-top: -12px;
     padding-top: 0px;
   }
