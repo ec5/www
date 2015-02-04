@@ -161,8 +161,8 @@ header p.lead{
 header .carousel-iphone {
   margin-right: auto;
   margin-left: auto;
-  width: 495px;
-  height: 672px;
+  width: 340px;
+  height: 674px;
   background: url('../img/nexus-5.png') no-repeat;
   background-size: 100%;
 }
@@ -172,7 +172,7 @@ header .carousel {
   margin-right: auto;
   margin-left: auto;
   padding: 55px 0px 0px 0px;
-  width: 298px;
+  width: 306px;
 }
 
 header .carousel-indicators .active {
@@ -499,12 +499,12 @@ header, .social{
 @media (max-width:480px){
 
   header .carousel-iphone, .detail .app-screenshot {
-    width: 280px;
+    width: 300px;
   }
 
   header .carousel, .detail .app-screenshot img {
-    padding-top: 31px;
-    width: 168px;
+    padding-top: 52px;
+    width: 270px;
   }
 
   .detail .app-screenshot img {
@@ -523,6 +523,10 @@ header, .social{
 
   .purchase{
     padding-top: 50px;
+  }
+
+  .purchase h1 {
+    font-size: 28px;
   }
 
   .features col-md-4{
